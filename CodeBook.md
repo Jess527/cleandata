@@ -83,7 +83,7 @@
 ###fBodyAccJerkMeanFreqX	
 ###fBodyAccJerkMeanFreqY
 ###fBodyAccJerkMeanFreqZ	
-####Gyroscope measurements from body on 3 axes (X,Y & Z) -- mean and standard deviation
+##Gyroscope measurements from body on 3 axes (X,Y & Z) -- mean and standard deviation
 ###fBodyGyroMeanX
 ###fBodyGyroMeanY
 ###fBodyGyroMeanZ
