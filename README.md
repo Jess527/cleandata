@@ -4,3 +4,4 @@
 ##The accelerometer and gyroscope in the phone captured linear acceleration and angular velocity data
 ##Run_analysis.R creates a dataset comprised only of the mean and standard deviation calculations for each variable
 ###It then provides an average calculation for each variable based on the subject and activity performed
+###The resulting dataframe is written to a text file and can be opened in a program like Microsoft Excel
