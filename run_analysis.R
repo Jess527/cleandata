@@ -27,3 +27,4 @@ colnames(final_DF) <- c("subjectID","activityLabel",colNames) ##adds names from 
 ##calculate averages for each column by subject & activity
 melt_final <- melt(final_DF,id.vars=1:2)
 avg_DF <- dcast(melt_final, subjectID + activityLabel ~ variable,mean)
+write.table(avg_DF, file="cleandata.txt") ##write resulting dataframe to a text file
